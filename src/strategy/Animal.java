@@ -1,4 +1,4 @@
-package singleton;
+package strategy;
 
 public class Animal {
     private String name;
@@ -51,5 +51,8 @@ public class Animal {
 
     public String tryToFly(){
         return flyType.fly();
+    }
+    public void setFlyType(Flys newFlyType){
+        flyType = newFlyType;
     }
 }

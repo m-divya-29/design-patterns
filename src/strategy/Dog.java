@@ -1,4 +1,4 @@
-package singleton;
+package strategy;
 
 public class Dog extends Animal{
     Dog(){
